@@ -3,5 +3,5 @@ cache
 dist
 setup.py
 test.py
-render_file_fullstackmqtt.egg_info
+render_file_fullstackmqtt.egg-info
 __pycache__

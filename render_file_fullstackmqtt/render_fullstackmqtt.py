@@ -34,7 +34,7 @@ class render(object):
             css = '\n'.join([self.__dcss__[i] for i in lkey_css])
             stl = render.__create_newtab__('style', css)
         if lkey_js is not None:
-            js = '\n'.join([self.__dcss__[i] for i in lkey_js])
+            js = '\n'.join([self.__djs__[i] for i in lkey_js])
             scc = render.__create_newtab__('script', js)
         try:
             html = self.__dhtml__[key_html] 
